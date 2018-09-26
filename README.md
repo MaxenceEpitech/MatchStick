@@ -1,24 +1,26 @@
 # MatchStick
 
-### Utilisation version Shell :
+### Use of Shell Version :
 ```
 $ make re
-$ ./matchstick [Nb d'allumettes] [Nb d'allumettes à retirer par tours]
+$ ./matchstick [MatchSticks amount] [MatchSticks amount per turn]
 ```
 
-### Utilisation version Graphique :
+### Use of Graphical Version :
 ```
 $ cd bonus/
 $ make re
-$ ./matchstick [Nb d'allumettes] [Nb d'allumettes à retirer par tours]
+$ ./matchstick [MatchSticks amount] [MatchSticks amount per turn]
 ```
 
-### Informations sur le projet:
+### Project Informations :
 
-Réalisation du jeu de MatchStick. Le jeu ce joue contre une IA.
-Chaque tour le joueur doit retirer des allumettes sur une ligne du jeu.
-Le dernier joueur à retirer une allumette perd.
+MatchStick is the MatchStick Game :
 
-Suit l'ancienne norme Epitech.
+Each turn, each player had to remove a certain amount of matchstick on the same line.
+The player who remove the last matchstick lose.
+By default you play against an IA.
 
-Plus d'informations dans MatchStick.pdf.
+It had been coded following Epitech's standart.
+
+More informations in MatchStick.pdf.
